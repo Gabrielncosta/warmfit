@@ -40,18 +40,16 @@ body {
 }
 
 #headerimage {
-    background:url(/images/background.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background:url(../images/background.png) repeat;
     min-height: 841px;
 }
 
 .headermessage {
-    color: white;
-    font-style: italic;
-    line-height: 1.1em;
-    font-size: 50px;
-    font-weight: 700;
+    color: white !important;
+    font-style: italic !important;
+    line-height: 1.1em !important;
+    font-size: 50px !important;
+    font-weight: 900 !important;
 }
 
 .headersubmessage {
@@ -92,7 +90,7 @@ header p {
 }
 
 .btn-buy-1 {
-    background:url(/images/btn_buy_1.png) top no-repeat;
+    background:url(../images/btn_buy_1.png) top no-repeat;
     background-size:cover;
     width:560px;
     height:92px;
@@ -106,7 +104,7 @@ header p {
    
    .btn-buy-1:before {
     content:'';
-    background:url(/images/btn_buy_1.png) bottom no-repeat;
+    background:url(../images/btn_buy_1.png) bottom no-repeat;
     background-size:cover;
     width:100%;
     height:100%;
@@ -121,7 +119,7 @@ header p {
    }
    body.index2 .btn-buy-1,
    body.index2 .btn-buy-1:before {
-    background-image:url(images/btn_buy_3.png);
+    background-image:url(..images/btn_buy_3.png);
     box-shadow:none
    }
    .btn-buy-1:hover:before {
@@ -235,13 +233,13 @@ body.index2 .btn-buy-2:before {
    }
 
    .greytexture {
-        background:url(/images/greytexture.jpg) no-repeat;
+        background:url(../images/greytexture.jpg) no-repeat;
         background-size: cover;
         background-position: center;
    }
 
    .blacktexture {
-        background:url(/images/blacktexture.jpg) repeat;
+        background:url(../images/blacktexture.jpg) repeat;
    }
 
    .round {
@@ -249,7 +247,7 @@ body.index2 .btn-buy-2:before {
    }
 
    #block-10 {
-        background:url(/images/blacktexture.jpg) repeat;
+        background:url(../images/blacktexture.jpg) repeat;
    }
    #block-10 .container {
        
@@ -264,7 +262,7 @@ body.index2 .btn-buy-2:before {
 
 #block-10 .counter:after {
 	content: '';
-	background: url(/images/arrow_1.png);
+	background: url(../images/arrow_1.png);
 	width: 110px;
 	height: 25px;
 	position: absolute;
